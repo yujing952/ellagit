@@ -1,0 +1,10 @@
+#! /usr/bin/python3
+hello
+this is a testing txt file
+
+python is a very godd language.
+ yes, it's very useful!python is a very godd language.
+ yes, it's very useful!python is a very godd language.
+ yes, it's very useful!
+python is a very godd language.
+ yes, it's very useful!
