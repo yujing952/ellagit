@@ -1,7 +1,14 @@
 #!/usr/bin/python3
+<<<<<<< HEAD
 
 # quick sort 
 def partition(arr,low,high):
+=======
+import math
+
+# quick sort 
+def partition(arr, low, high):
+>>>>>>> f71656a (stufy python materials)
     i = (low -1)  # the index of the lowest 
     pivot = arr[high]
     

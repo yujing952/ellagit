@@ -1,6 +1,6 @@
 #! /usr/bin/python3
 #! import operator model
-import operator 
+import test_operator
 list1 = ['google',23,'baidu',78.4,'runoob']
 
 print("list1[1]:",list1[1])
