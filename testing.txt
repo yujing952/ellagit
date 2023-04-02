@@ -1,10 +1,41 @@
-#! /usr/bin/python3
 hello
 this is a testing txt file
+python is a very godd language.
+yes, it's very useful!
+python is a very godd language.
+yes, it's very useful!
+python is a very godd language.
+yes, it's very useful!
+python is a very godd language.
+yes, it's very useful
+pcython is a very godd language.
+yes, it's very useful!
+pcython is a very godd language.
+yes, it's very useful!
+pcython is a very godd language.
+yes, it's very useful!
+pcython is a very godd language.
+yes, it's very useful!
+pcython is a very godd language.
+yes, it's very useful!
+pcython is a very godd language.
+yes, it's very useful!
+pcython is a very godd language.
+yes, it's very useful!
+pcython is a very godd language.
+yes, it's very useful!
+pcython is a very godd language.
+yes, it's very useful!
+pcython is a very godd language.
+yes, it's very useful!
+pcython is a very godd language.
+yes, it's very useful!
+pcython is a very godd language.
+yes, it's very useful!
+ i love you, please go to find me on 2023-04-02你去开会么？不去！可以取www.google.com 的关键信息helloni hao \n hello, r"\n"no hellohello
+ 3
+hello
+ 5
 
-python is a very godd language.
- yes, it's very useful!python is a very godd language.
- yes, it's very useful!python is a very godd language.
- yes, it's very useful!
-python is a very godd language.
- yes, it's very useful!
+ 9
+helo,how are your? fine, thankyou, and you?
