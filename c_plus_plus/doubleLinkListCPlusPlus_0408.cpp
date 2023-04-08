@@ -11,6 +11,18 @@ class doubleLinkListNode
 		DataType data;  // data filed 数据域 
 		doubleLinkListNode *next; // pointer filed 指针域 
 //		friend class doubleLinkList;
+
+		doubleLinkListNode()
+		{
+			prior = NULL;
+			next = NULL;
+		}
+		
+		~doubleLinkListNode()
+		{
+			prior = NULL;
+			next = NULL;
+		}
 };
 
 class doubleLinkList
@@ -24,7 +36,7 @@ class doubleLinkList
 		void createDoubleLinkList(int length);
 		void insertNodeByHead(DataType item);
 		void insertNodeByTail(DataType item);
-		bool insertNodeByIndex(DataType item, int index);
+		void insertNodeByIndex(DataType item, int index);
 		doubleLinkListNode* findData(DataType n);
 		void deleteDataAtIndex(int index);
 		void changeListDataAtIndex(int index, DataType item);
@@ -55,6 +67,8 @@ void doubleLinkList::insertNodeByHead(DataType item)
 	doubleLinkListNode* pMove = head;
 	doubleLinkListNode* newNode = new doubleLinkListNode; // create a new node
 	newNode->data = item;
+	newNode->next = NULL;
+	newNode->prior = NULL;
 	
 	if(pMove->next == NULL && pMove->prior == NULL)
 	{
@@ -75,28 +89,32 @@ void doubleLinkList::insertNodeByTail(DataType item)
 {
 		doubleLinkListNode* newNode = new doubleLinkListNode; // create a new node
 		newNode->data = item;
+	//	newNode->next = NULL;
+	//	newNode->prior = NULL;  // the point need init to NULL, add the constructor of this class 
 		
 		// firstly find the last node
-		doubleLinkListNode* lastNode = head;
-		while(lastNode->next != NULL)
+		doubleLinkListNode* pMove = head;
+		while(pMove->next != NULL)
 		{
-			lastNode = lastNode->next;
+			pMove = pMove->next;
 		}
-		lastNode->next = newNode;
-		newNode->prior = lastNode;		
+		pMove->next = newNode;
+		newNode->prior = pMove;	
+		pMove = newNode;	
 }
 
-bool doubleLinkList::insertNodeByIndex(DataType item, int index)
+void doubleLinkList::insertNodeByIndex(DataType item, int index)
 {
 	if(index < 1 || index > getLength())
 	{
 		cout << "the input value is invalid!" << endl;
-		return false;
 	}
 	
 	doubleLinkListNode* pMove = head;
 	doubleLinkListNode* newNode = new doubleLinkListNode; 	// create a new node
 	newNode->data = item;
+	// newNode->next = NULL;
+	// newNode->prior = NULL;   // the point need init to NULL, add the constructor of this class 
 	
 	// firstly find the inserted point
 	for(int i = 1; i < index; i++)
@@ -111,8 +129,7 @@ bool doubleLinkList::insertNodeByIndex(DataType item, int index)
 		pMove->next->prior = newNode;
 	}
 	newNode->prior = pMove;
-	pMove->next = newNode;
-	return true;	
+	pMove->next = newNode;	
 	
 }
 
@@ -186,6 +203,7 @@ void doubleLinkList::deleteDataAtIndex(int index)  //删除指定位置的节点
 	}
 	
 	delete pDelete;
+	pDelete = NULL;
 		
 }	
 
@@ -228,12 +246,12 @@ void doubleLinkList::createDoubleLinkList(int length)
 		doubleLinkListNode *newNode = new doubleLinkListNode;
 		cout << "input " << i+1 << " value: ";
 		cin >>newNode->data;
-		newNode->next = NULL;
-		newNode->prior = NULL;
-		pMove->next = newNode;
+	//	newNode->next = NULL;  // the pointer of new node need init to NULL, add the constructor of this class 
+	//	newNode->prior = NULL; 		
 		newNode->prior = pMove;
-		pMove = pMove->next;	
-			
+		pMove->next = newNode;
+		pMove = pMove->next;
+		pMove = newNode;				
 	}
 		
 }
@@ -247,7 +265,7 @@ int main()
 	cout << "0. exit \n" ;
 	cout << "1. create a doubleLinkList\n2. print doubleLinkList\n3. get the length of doubleLinkList\n";
 	cout << "4. insert data at tail\n5. insert data at head\n6. insert data at index\n" ;	
-	cout << "7. find data \n8. delete data on index" ;
+	cout << "7. find data \n8. delete data on index\n9. change the data on index" ;
 	do 
 	{
 		cout << "\nplease input the execution Num: ";
@@ -294,6 +312,14 @@ int main()
 				cin >> index;
 				doublelink.deleteDataAtIndex(index);
 				break;
+			case 9:
+				cout << "input the data what you want to use:" ;
+				cin >> data;
+				cout << "input the index of the replaced data:" ;
+				cin >> index;
+				doublelink.changeListDataAtIndex(index, data);
+				break;
+				
 			default:
 				break;
 		}
