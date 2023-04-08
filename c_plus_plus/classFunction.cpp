@@ -12,7 +12,7 @@ class Box
 		// member function declaration
 		double getVolume(void);
 		void set(double len, double bre, double hei);
-	
+		friend void printVolume(Box box);
 };
 
 // Define member function
@@ -27,6 +27,14 @@ void Box::set(double len, double bre, double hei)
 	breadth = bre;
 	height = hei;
 }
+
+// friend function, which is not the member of any class
+void printVolume(Box box)
+{
+	cout << "voulme of box:" << box.getVolume() << endl;
+	
+}
+
 
 int main()
 {
@@ -45,11 +53,14 @@ int main()
 	
 	// box1 volume
 	volume = box1.length * box1.breadth * box1.height;
-	cout << "box1 volume: " << volume << endl;
+	//cout << "box1 volume: " << volume << endl;
+	printVolume(box1);
+	
 	
 	box2.set(4.0, 5.0, 6.0);
 	volume = box2.getVolume();
-	cout << "box2 volume: " << volume << endl;
+//	cout << "box2 volume: " << volume << endl;
+	printVolume(box2);
 	
 	
 	return 0;
