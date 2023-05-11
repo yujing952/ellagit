@@ -63,7 +63,7 @@ def w_add(func):
 
 @w_add
 def add(a,b):
-    print('%d + %d = %d' % (a,b,a+b))
+    print('%d + %d = %d' % (a, b, +b))
     
 @w_add
 def add2(a,b,c):
@@ -122,57 +122,66 @@ def func_args(vistor='chenqi'):
 # @w_test_log
 # 使用@w_test_log对test_log进行装饰
 
+
 @func_args('ella')
 def test_log():
     print('this is test log')
-    
-#test_log()
 
-#----------------------------
+
+# test_log()
+
+# ----------------------------
 # decorator case 6
-#通用装饰器
-#---------------------------- 
-    
+# 通用装饰器
+# ----------------------------
+
+
 def w_test(func):
-    def inner(*args,**kwargs):
-        ret = func(*args,**kwargs)
+    def inner(*args, **kwargs):
+        ret = func(*args, **kwargs)
         return ret
     return inner
+
 
 @w_test
 def test0():
     print('test 0 is called')
+
 
 @w_test
 def test1():
     print('test 1 is called')
     return 'python study'
 
+
 @w_test
-def test2(var):
-    print('this test2 called value is %d' % var)
-    
-#test0()
-#ret1 = test1()
-#print('the return from test1: %s' % ret1)
-#test2(6)
+def test2(*var, **kw):
+    print('this test2 called value is:', var, kw)
 
 
-#----------------------------
+test0()
+ret1 = test1()
+print('the return from test1: %s' % ret1)
+test2((6, 7, 8), name='hello')
+
+
+# ----------------------------
 # decorator case 7
-#类装饰器
-#---------------------------- 
+# 类装饰器
+# ----------------------------
+
 
 class TestClass(object):
-    def __init__(self,func):
+    def __init__(self, func):
         print('test init')
         print('the func name is %s ' % func.__name__)
         self.__func = func
     
-    def __call__(self,*args,**kwargs):
+    def __call__(self, *args, **kwargs):
         print('the function of decorator')
         self.__func()
-        
+
+
 @TestClass
 def test3():
     print('this is test3 func')
