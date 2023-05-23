@@ -27,9 +27,10 @@ void FunTest()
     Derived d;
     
     cout << "use the object to call matched fun: " << endl;
-    b.fun();//调用基类的fun()打印Base::fun()
-    d.fun();//子类虽然继承了基类的fun()但是子类本身中fun(),此时构成了重定义，即基类中的fun()被隐藏，因此调用的是子类的fun()打印Derived::fun()
-    d.Base::fun();//若想调用基类的fun()需要加类的作用域限定符，打印Base::fun()
+    b.fun();// call the fun() of Base class, print Base::fun()
+    d.fun();// the Derived class inherits the fun() in the Base class, but the Derived class self has the fun(), which constitutes a redefinition
+	// The fun() in the Base class is hidden. Therefore, print Derived::fun()
+    d.Base::fun(); // if want to call the fun() in Base class, need add the class's scope qualifier, print Base::fun()
     
 	cout << "use pointer to call function of object: " << endl;
 	Base* pb = &b;
@@ -40,7 +41,7 @@ void FunTest()
 	cout << "make Base pb ointer to d (Derived object):" << endl;
 	
 	pb = &d;
-	pb->fun(); //pb指向子类
+	pb->fun(); //pb point to subclass Derived 
 	
 	cout << "use the reference to call function of object: " << endl;
 	Base& rb = b;
@@ -50,7 +51,7 @@ void FunTest()
 	
 	cout << "make Base reference rb2 to d (Derived object):" << endl;
 	Base& rb2 = d;
-	rb2.fun();  //rd2引用子类 
+	rb2.fun();  //rd2 refer to subclass Derived
 
 }
 

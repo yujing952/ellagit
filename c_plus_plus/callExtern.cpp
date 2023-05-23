@@ -2,7 +2,6 @@
 using namespace std;
 
 int count;
-extern void write_extern();
 
 class Value
 {
@@ -54,7 +53,6 @@ class Test
 int main()
 {
 	count = 5;
-	write_extern();
 	
 	Test t;
 	cout <<  "t.ci = " << t.getCI()<< endl;

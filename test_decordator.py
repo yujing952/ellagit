@@ -1,44 +1,52 @@
 #! /usr/bin/python3
 
-#----------------------------
+# ----------------------------
 # decorator case 1
-#----------------------------
+# ----------------------------
 
 def w1(func):
     print("the decorator is decorating...")
+
     def inner():
         print("...verifying...")
         func()
     return inner
 
+
 @w1
 def f1():
     print("f1 called")
+
 
 @w1 
 def f2():
     print("f2 called")
     
-#f1()
-#f2()
+# f1()
+# f2()
 
-#----------------------------
+# ----------------------------
 # decorator case 2
-#----------------------------
+# ----------------------------
+
 
 def makeBold(fun):
     print("---a---")
+
     def inner():
         print("---1---")
         return '<b>' + fun() + '</b>' 
     return inner
 
+
 def makeItallic(fun):
-    print('---b---')   
+    print('---b---')
+
     def inner():
         print('---2---')
         return '<i>' + fun() + '</i>'
     return inner
+
 
 @makeBold
 @makeItallic
@@ -47,13 +55,13 @@ def testing():
     print('---3---')
     return 'hello python decorator'
 
-#ret = testing()
-#print(ret)
+# ret = testing()
+# print(ret)
 
 
-#----------------------------
+# ----------------------------
 # decorator case 3
-#----------------------------
+# ----------------------------
 
 def w_add(func):
     def inner(*args, **kwargs):
@@ -64,18 +72,19 @@ def w_add(func):
 @w_add
 def add(a,b):
     print('%d + %d = %d' % (a, b, +b))
-    
+
+
 @w_add
 def add2(a,b,c):
     print('%d + %d + %d = %d' % (a, b, c, a+b+c))
     
-#add(2,4)
-#add2(2,3,5)
+# add(2,4)
+# add2(2,3,5)
 
 
-#----------------------------
+# ----------------------------
 # decorator case 4
-#----------------------------
+# ----------------------------
 
 
 def w_say(func):
@@ -94,20 +103,21 @@ def w_say(func):
         
     return inner
 
+
 @w_say
 def hello(name):
     print('hello ' + name)
     return 'come on'
 
 
-#ret = hello('yaoyao') 
-#print('the ret value is ',ret)      
+# ret = hello('yaoyao')
+# print('the ret value is ',ret)
 
 
-#----------------------------
+# ----------------------------
 # decorator case 5
-#带参数的装饰器就是在原闭包的基础上又加了一层闭包
-#---------------------------- 
+# 带参数的装饰器就是在原闭包的基础上又加了一层闭包
+# ----------------------------
 
 def func_args(vistor='chenqi'):
     def w_test_log(func):
