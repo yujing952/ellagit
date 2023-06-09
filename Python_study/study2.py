@@ -18,8 +18,7 @@ if __name__ == '__main__':
     input = input('please input a sentence: ')
     rw = reverseWords(input)
     print(rw)
-
+    '''
     s = input('please input a string: ')
     s1 = reverseStr(s)
     print(s1)
-    '''
