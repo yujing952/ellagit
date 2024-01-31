@@ -38,7 +38,7 @@ void FunTest()
 	pb->fun(); // call Base fun 
 	pd->fun(); // call Derived fun
 	
-	cout << "make Base pb ointer to d (Derived object):" << endl;
+	cout << "make Base pb pointer to d (Derived object):" << endl;
 	
 	pb = &d;
 	pb->fun(); //pb point to subclass Derived 

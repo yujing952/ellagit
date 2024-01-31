@@ -1,35 +1,37 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
-    
-from typing import Any
 
 
 def makeBold(func):
-    print('---a---')    
+    print('---a---')
     def inner():
         print('---1---')
         return '<b>' + func() + '</b>'
-    return inner 
+    return inner
+
 
 def makeItalic(func):
     print('---b---')
     def inner():
         print('---2---')
-        return '<i>' +func() + '</i>'
+        return '<i>' + func() + '</i>'
     return inner 
+
 
 @makeBold
 @makeItalic
-def test():
+def testing1():
     print('---c---')
     print('---3---')
     return 'python decorator'
+
 
 def w_say(func):
     def inner(name):
         print('w_say inner called...')
         func(name)
     return inner 
+
 
 @w_say
 def hello(name):
@@ -43,16 +45,19 @@ def deco(func):
         return ret
     return inner 
 
+
 @deco
-def add(a,b):
+def add(a, b):
     print('%d + %d = %d' % (a, b, a+b))
 
-@deco
-def add2(a,b,c):
-    print('%d + %d + %d = %d' % (a, b, c, a+b+c))
 
 @deco
-def testing():
+def add2(a, b, c):
+    print('%d + %d + %d = %d' % (a, b, c, a+b+c))
+
+
+@deco
+def testing2():
     print('this is testing func')
     return 'hello'
 
@@ -69,20 +74,16 @@ class Test(object):
 
 
 @Test
-def testtest():
-    print('this is testtest')
+def testing3():
+    print('this is testing3')
 
-        
 
 if __name__ == '__main__':
-
-    '''
-    ret = test()
-    print(ret)
+    print('\n-----running result-----')
     hello('lucky')
-    add(1,2)
-    add2(3,4,5)
-    r = testing()
-    print(r)
-    ''' 
-    testtest()
+    add(1, 2)
+    add2(3, 4, 5)
+    ret1 = testing2()
+    print(ret1)
+    ret2 = testing1()
+    print(ret2)
