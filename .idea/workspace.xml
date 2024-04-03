@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="af3fae57-2a8a-47c5-8ee4-5283d2541064" name="Changes" comment="study python" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2dG9t6x9mOITZH5n26lFK6jZsQ5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.pytest in Huawei_Bishi.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in pDecorator.py.executor&quot;: &quot;Debug&quot;,
+    &quot;Python tests.pytest in pyTest.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in testDecorator2.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in testDecorator3.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_Requests.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_SearchMatchedSubString.py.executor&quot;: &quot;Debug&quot;,
+    &quot;Python tests.pytest in test_SeleniumTest.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_Study.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_decordator.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_hello.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_import.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_operator.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_pay.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_pyTest.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.SearchMatchedSubString.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.SeleniumTest.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Study.executor&quot;: &quot;Run&quot;,
+    &quot;Python.browserTest.executor&quot;: &quot;Run&quot;,
+    &quot;Python.class_study.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pIterator.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.pJSON.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pReadFileByYield.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.threading_study.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/niuyu/Desktop/ellagit/Huawei_Bishi&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.project&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\niuyu\Desktop\ellagit\Huawei_Bishi" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\niuyu\Desktop\ellagit\Huawei_Bishi\.idea" />
+      <recent name="C:\Users\niuyu\Desktop\ellagit" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.class_study">
+    <configuration name="Study" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ellagit" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Huawei_Bishi" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Huawei_Bishi/Study.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="class_study" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="ellagit" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/class_study.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in Huawei_Bishi" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="ellagit" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Huawei_Bishi" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Huawei_Bishi&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Study" />
+        <item itemvalue="Python tests.pytest in Huawei_Bishi" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-d68999036c7f-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.14475.56" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="af3fae57-2a8a-47c5-8ee4-5283d2541064" name="Changes" comment="" />
+      <created>1709623760934</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1709623760934</updated>
+    </task>
+    <task id="LOCAL-00001" summary="study python">
+      <option name="closed" value="true" />
+      <created>1712115157553</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1712115157553</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="study python" />
+    <option name="LAST_COMMIT_MESSAGE" value="study python" />
+  </component>
+</project>

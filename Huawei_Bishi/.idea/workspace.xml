@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c3995954-b6cd-4e4f-9b08-8d01d39b2ba1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Huawei_Bishi.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SearchMatchedSubString.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SeleniumTest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StringCountingFunction.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WordAssociativeFunction.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pay.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_Requests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_pay.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_pyTest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python_study/Ready.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/ellagit.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/ellagit.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.vscode/tasks.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BMW_questions/classDerivedWay.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BMW_questions/classMultipleDerived.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BMW_questions/classThisPointer.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BMW_questions/classVirtualDerived.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python_study/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python_study/.idea/Python_study.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python_study/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python_study/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python_study/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python_study/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python_study/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python_study/pDecorator.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python_study/pDecorator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python_study/testing0.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../Python_study/testing0.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../c_plus_plus/.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../c_plus_plus/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../c_plus_plus/Project-C.dev" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../c_plus_plus/Project8.dev" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../c_plus_plus/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../c_plus_plus/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../c_plus_plus/cNew.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../c_plus_plus/classPolymorphism.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../c_plus_plus/ellaStudy.dev" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../c_plus_plus/list/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../c_plus_plus/list/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../c_plus_plus/test/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../c_plus_plus/test/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test_operator.py" beforeDir="false" afterPath="$PROJECT_DIR$/../test_operator.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2dG9f1tapDovUR06tVu8B4J2Vxb" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/niuyu/Desktop/ellagit",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-d68999036c7f-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.14475.56" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c3995954-b6cd-4e4f-9b08-8d01d39b2ba1" name="Changes" comment="" />
+      <created>1709623649967</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1709623649967</updated>
+    </task>
+    <servers />
+  </component>
+</project>
