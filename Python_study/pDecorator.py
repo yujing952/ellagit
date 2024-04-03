@@ -4,14 +4,16 @@
 
 def makeBold(func):
     print('---a---')
+
     def inner():
-        print('---1---')
+        print('\n---1---')
         return '<b>' + func() + '</b>'
     return inner
 
 
 def makeItalic(func):
     print('---b---')
+
     def inner():
         print('---2---')
         return '<i>' + func() + '</i>'
@@ -40,7 +42,7 @@ def hello(name):
 
 def deco(func):
     def inner(*args, **kwargs):
-        print('deco inner called...')
+        print('\ndeco inner called...')
         ret = func(*args, **kwargs)
         return ret
     return inner 
@@ -48,12 +50,12 @@ def deco(func):
 
 @deco
 def add(a, b):
-    print('%d + %d = %d' % (a, b, a+b))
+    return '%d + %d = %d' % (a, b, a+b)
 
 
 @deco
 def add2(a, b, c):
-    print('%d + %d + %d = %d' % (a, b, c, a+b+c))
+    return '%d + %d + %d = %d' % (a, b, c, a+b+c)
 
 
 @deco
@@ -81,9 +83,14 @@ def testing3():
 if __name__ == '__main__':
     print('\n-----running result-----')
     hello('lucky')
-    add(1, 2)
-    add2(3, 4, 5)
-    ret1 = testing2()
+
+    sum1 = add(1, 2)
+    print(sum1)
+
+    sum2 = add2(3, 4, 5)
+    print(sum2)
+
+    ret1 = testing1()
     print(ret1)
-    ret2 = testing1()
+    ret2 = testing2()
     print(ret2)
