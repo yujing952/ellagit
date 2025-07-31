@@ -5,12 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="af3fae57-2a8a-47c5-8ee4-5283d2541064" name="Changes" comment="study python">
-      <change afterPath="$PROJECT_DIR$/Python_study_2025/study_DataType.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_study_2025/study_Decorator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_study_2025/study_Fibo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_study_2025/study_File.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_study_2025/study_Lambda.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_study_2025/study_String.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,51 +39,51 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.pytest in Huawei_Bishi.executor": "Run",
-    "Python tests.pytest in pDecorator.py.executor": "Debug",
-    "Python tests.pytest in pyTest.py.executor": "Run",
-    "Python tests.pytest in study_Decorator.py.executor": "Run",
-    "Python tests.pytest in testDecorator2.py.executor": "Run",
-    "Python tests.pytest in testDecorator3.py.executor": "Run",
-    "Python tests.pytest in test_Requests.py.executor": "Run",
-    "Python tests.pytest in test_SearchMatchedSubString.py.executor": "Debug",
-    "Python tests.pytest in test_SeleniumTest.py.executor": "Run",
-    "Python tests.pytest in test_Study.py.executor": "Run",
-    "Python tests.pytest in test_decordator.py.executor": "Run",
-    "Python tests.pytest in test_hello.py.executor": "Run",
-    "Python tests.pytest in test_import.py.executor": "Run",
-    "Python tests.pytest in test_operator.py.executor": "Run",
-    "Python tests.pytest in test_pay.py.executor": "Run",
-    "Python tests.pytest in test_pyTest.py.executor": "Run",
-    "Python.SearchMatchedSubString.executor": "Debug",
-    "Python.SeleniumTest.executor": "Run",
-    "Python.Study.executor": "Run",
-    "Python.browserTest.executor": "Run",
-    "Python.class_study.executor": "Run",
-    "Python.html_Requests.executor": "Run",
-    "Python.output_neighbor_info_as_dict_for_established_state.executor": "Run",
-    "Python.pIterator.executor": "Debug",
-    "Python.pJSON.executor": "Run",
-    "Python.pReadFileByYield.executor": "Debug",
-    "Python.study_DataType.executor": "Run",
-    "Python.study_Decorator.executor": "Run",
-    "Python.study_Fibo.executor": "Run",
-    "Python.study_File.executor": "Run",
-    "Python.study_Lambda.executor": "Run",
-    "Python.study_string.executor": "Run",
-    "Python.task_master.executor": "Run",
-    "Python.task_worker.executor": "Run",
-    "Python.threading_study.executor": "Debug",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/niuyu/Desktop/ellagit/Huawei_Bishi",
-    "settings.editor.selected.configurable": "configurable.group.project"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.pytest in Huawei_Bishi.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in pDecorator.py.executor&quot;: &quot;Debug&quot;,
+    &quot;Python tests.pytest in pyTest.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in study_Decorator.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in testDecorator2.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in testDecorator3.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_Requests.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_SearchMatchedSubString.py.executor&quot;: &quot;Debug&quot;,
+    &quot;Python tests.pytest in test_SeleniumTest.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_Study.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_decordator.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_hello.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_import.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_operator.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_pay.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_pyTest.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.SearchMatchedSubString.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.SeleniumTest.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Study.executor&quot;: &quot;Run&quot;,
+    &quot;Python.browserTest.executor&quot;: &quot;Run&quot;,
+    &quot;Python.class_study.executor&quot;: &quot;Run&quot;,
+    &quot;Python.html_Requests.executor&quot;: &quot;Run&quot;,
+    &quot;Python.output_neighbor_info_as_dict_for_established_state.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pIterator.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.pJSON.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pReadFileByYield.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.study_DataType.executor&quot;: &quot;Run&quot;,
+    &quot;Python.study_Decorator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.study_Fibo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.study_File.executor&quot;: &quot;Run&quot;,
+    &quot;Python.study_Lambda.executor&quot;: &quot;Run&quot;,
+    &quot;Python.study_string.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task_master.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task_worker.executor&quot;: &quot;Run&quot;,
+    &quot;Python.threading_study.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/niuyu/Desktop/ellagit/Huawei_Bishi&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.project&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\niuyu\Desktop\ellagit\Huawei_Bishi" />
