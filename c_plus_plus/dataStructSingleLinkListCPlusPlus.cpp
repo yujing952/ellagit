@@ -3,7 +3,7 @@ using namespace std;
 
 typedef int DataType;
 
-// Node class 构建一个节点类 
+// Node class
 class Node
 {
 	public:
@@ -11,7 +11,7 @@ class Node
 		Node* next;
 };
 
-// single LinkList class 构建一个单链表类 
+// single LinkList class 
 class LinkList
 {
 	public:
@@ -19,7 +19,7 @@ class LinkList
 		~LinkList();
 		
 		void createLinkList(int n);  //create a single LinkList
-		void travelLinkList();  //遍历 LinkList
+		void travelLinkList();  // LinkList
 		int getLinkListLength();  // get the length of LinkList
 		bool isEmpty();  // verify the LinkList is empty or not
 		
@@ -29,7 +29,7 @@ class LinkList
 		void insertLinkListAtHead(DataType data); // insert the value at the head
 		
 		void deleteLinkListAll(); // delete all data
-		void deleteLinkListAtPoint( DataType data); // delete the appointed data 删除指定数据 
+		void deleteLinkListAtPoint( DataType data); // delete the appointed data
 		void deleteLinkListAtIndex(int index); //delete the data on appointed index
 		void deleteLinkListAtHead(); // delete data on the head
 		
